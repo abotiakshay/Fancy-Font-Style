@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/header2"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="?attr/colorSecondaryVariant"
+    tools:context=".AditionalActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/accentbackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:fontFamily="@font/aclonica"
+            android:shadowColor="#C32828"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="Fancy Font Style"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:background="@drawable/bgwithround"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/stylishtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/searchviewbg"
+            android:focusedByDefault="false"
+            android:paddingLeft="14dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Preview Text"
+            android:textSize="20dp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cplayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/editText1"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/color1"
+        android:orientation="horizontal"
+        android:padding="9dp">
+
+        <Button
+            android:id="@+id/copy"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="Copy"
+            android:textColor="#fff"
+            app:backgroundTint="?attr/colorPrimary"></Button>
+
+        <Button
+            android:id="@+id/share"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="Share"
+            android:textColor="#fff"
+            app:backgroundTint="?attr/colorPrimary"></Button>
+
+        <!--        <Button-->
+        <!--            android:id="@+id/favourite"-->
+        <!--            style="?android:attr/borderlessButtonStyle"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            android:layout_marginRight="10dp"-->
+
+        <!--            android:layout_weight="1"-->
+        <!--            android:background="@drawable/button"-->
+        <!--            android:text="LIKE"-->
+        <!--            android:textAllCaps="false"-->
+        <!--            app:backgroundTint="@color/accent"></Button>-->
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/specialkeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+
+        android:layout_below="@id/cplayout"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/color1" />
+</RelativeLayout>

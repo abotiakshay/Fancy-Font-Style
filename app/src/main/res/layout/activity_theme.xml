@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Theme">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="Select Theme :"
+        android:textColor="?attr/colorSecondary"
+        android:textSize="24sp"></TextView>
+
+    <Switch
+        android:id="@+id/dark_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Dark Mode   :             "
+        android:textSize="14sp"></Switch>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/theme_default"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+
+            app:cb_color="#2FE8B6" />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/theme_purple"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            app:cb_color="#8E2DE2" />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/theme_sky"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            app:cb_color="#46B3E6" />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/theme_pink"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            app:cb_color="#F953C6" />
+
+    </LinearLayout>
+
+</LinearLayout>

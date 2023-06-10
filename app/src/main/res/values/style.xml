@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Purple_theme" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">#8E2DE2</item>
+        <item name="colorPrimaryVariant">#208E2DE2</item>
+    </style>
+    <style name="Sky_theme" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">#46B3E6</item>
+        <item name="colorPrimaryVariant">#ACE5FF</item>
+    </style>
+    <style name="Pink_theme" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">#F953C6</item>
+        <item name="colorPrimaryVariant">#20F953C6</item>
+    </style>
+
+
+</resources>
