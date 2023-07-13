@@ -30,7 +30,7 @@ This app gives you ability to modify any predefine fancy text with special fancy
 ★ Easily able to add special Character in right,middle or left of the text which makes your text very cool and attractive.
 
 ## Screenshot
-![Alt text](https://github.com/abotiakshay/Fancy-Font-Style/blob/888c41bafaf3623b8c04a85ac7bcd1eae726084f/images/ScreenShot-1.png "a title")
+![Alt text](https://github.com/abotiakshay/Fancy-Font-Style/blob/888c41bafaf3623b8c04a85ac7bcd1eae726084f/images/ScreenShot-1.png=1080*1920 "a title")
 
 
 
