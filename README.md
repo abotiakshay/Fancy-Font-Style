@@ -4,7 +4,8 @@ Fancy Font Style is an android app which allows you to generate fancy font, cool
 ![Cool Text](https://github.com/abotiakshay/Fancy-Font-Style/blob/9aff8359789a92853d5f572db51b6234b474eca1/images/Banner.png "Cool Text Generator")
 
 ## App Link
-https://play.google.com/store/apps/details?id=com.FFLOL.freefirenickname
+[![Title](https://github.com/abotiakshay/Fancy-Font-Style/blob/c7e08c47988b95b24c70dac02403c460d0bc5d63/images/ScreenShot-3.png)](https://play.google.com/store/apps/details?id=com.FFLOL.freefirenickname)
+
 
 
 ## FEATURES
