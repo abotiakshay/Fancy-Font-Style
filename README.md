@@ -33,5 +33,7 @@ This app gives you ability to modify any predefine fancy text with special fancy
 ## Screenshot
 ![Cool Text](https://github.com/abotiakshay/Fancy-Font-Style/blob/888c41bafaf3623b8c04a85ac7bcd1eae726084f/images/ScreenShot-1.png "Cool Text Generator")
 
+![Cool Text](https://github.com/abotiakshay/Fancy-Font-Style/blob/c7e08c47988b95b24c70dac02403c460d0bc5d63/images/ScreenShot-3.png "Cool Text Generator")
+
 
 
