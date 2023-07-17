@@ -1,7 +1,7 @@
 #  📲 Fancy Font Style Android App
 
 Fancy Font Style is an android app which allows you to generate fancy font, cool text , fancy text and also allows you to generate nickname such as cool text generator or fancy font style . That's why cool text generator is an electronic text tool. This app is designed to help you generate cool text, fancy text, nickname, stylish text, stylish font, fancy font for your own project or just to have fun.
-![Cool Text](https://github.com/abotiakshay/Fancy-Font-Style/blob/1f1f2cb10517259845ba8fb5695641a837e3c42d/images/LOGO.png "Cool Text Generator")
+![Cool Text](https://github.com/abotiakshay/Fancy-Font-Style/blob/9aff8359789a92853d5f572db51b6234b474eca1/images/Banner.png "Cool Text Generator")
 
 ## App Link
 https://play.google.com/store/apps/details?id=com.FFLOL.freefirenickname
